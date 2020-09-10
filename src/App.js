@@ -44,7 +44,7 @@ class App extends Component{
     return (
       <div className="App">
         <h1>Monster Rolodex</h1>
-        <SearchBox placeholder='search monsters' handleChange={this.handleChange} />
+        <SearchBox placeholder='search monsters' onSearchChange={this.handleChange} />
         <button onClick={() => this.setState({message: this.state.message + ' MABUHAY!'})}>Click Me</button>
           
         <CardList monsters={filteredMonsters}/>
