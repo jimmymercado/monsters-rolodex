@@ -7,13 +7,5 @@ export const SearchBox = ({placeholder, onSearchChange}) => (
         type='search' 
         placeholder={placeholder}
         onChange={onSearchChange}
-        /*
-        onChange={e => 
-          this.setState({searchField: e.target.value}, () => {
-            console.log(this.state.searchField)
-          })
-        } 
-        */
-
     />
 );
